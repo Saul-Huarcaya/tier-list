@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root {
+  padding: 1rem;
+}
+.title{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: calc(1.5rem + 1vh);
+}
+form{
+  gap: 0.5rem;
+  max-width: 1024px;
+  margin: 1rem auto;
+  flex-direction: row;
+  display: flex;
+}
+
+.input-search{
+  background-color: rgb(20, 19, 19);
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  color: white;
+  border: none;
+}
+.input-save{
+  background-color:white;
+  border: none;
+  color: rgb(20, 19, 19);
+  padding: 0.5rem 0.8rem;
+  border-radius: 6px;
+}
+.input-save:hover{
+  cursor: pointer;
+  background-color:rgb(20, 19, 19);
+  transition: background-color 0.3s ease , color 0.3s ease;
+  border: none;
+  color: white;
+}

@@ -1,0 +1,36 @@
+.contenedor-countries{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: rgb(20, 19, 19);
+    border-radius: 16px;
+    padding: 1rem;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 140px;
+    max-width: 1024px;
+    gap: 1rem;
+}
+@media screen and (max-width:540px) {
+    .contenedor-countries img{
+        width: 46%;
+    }
+}
+@media screen and (min-width:540px) {
+    .contenedor-countries img{
+        width: 40%;
+    }
+}
+
+@media screen  and (min-width: 768px) {
+    .contenedor-countries{
+        display: flex;
+        
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .contenedor-countries img{
+        width: 140px;
+    }
+}
